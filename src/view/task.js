@@ -22,7 +22,7 @@ export const createTaskTemplate = (task) => {
     ? `card__btn--favorites card__btn--disabled`
     : `card__btn--favorites`;
 
-  return `<article class="card card--${color} ${deadlineClassName}">
+  return `<article class="card card--${color} ${deadlineClassName} ${repeatClassName}">
     <div class="card__form">
       <div class="card__inner">
         <div class="card__control">
@@ -34,7 +34,7 @@ export const createTaskTemplate = (task) => {
           </button>
           <button
             type="button"
-            class="card__btn card__btn--favorites"
+            class="card__btn ${favoriteClassName}"
           >
             favorites
           </button>
