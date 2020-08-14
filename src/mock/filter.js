@@ -4,7 +4,7 @@ const getTaskBy = (tasks, params, checkerFunction = null) => {
   let result = [];
 
   tasks.forEach((task) => {
-    if (typeof checkerFunction === `function` && !task.isArchive && checkerFunction[params]) {
+    if (typeof checkerFunction === `function` && !task.isArchive && checkerFunction(task[params])) {
       result.push(task);
     } else if (!checkerFunction && !task.isArchive && task[params]) {
       result.push(task);
