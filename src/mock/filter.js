@@ -1,4 +1,4 @@
-import {isTaskExpired, isTaskRepeating, isTaskExpiringToday} from "../utils/task.js";
+/* import {isTaskExpired, isTaskRepeating, isTaskExpiringToday} from "../utils/task.js";
 
 const getTaskBy = (tasks, params, checkerFunction = null) => {
   let result = [];
@@ -30,4 +30,4 @@ export const generateFilter = (tasks) => {
       count: countTasks(tasks),
     };
   });
-};
+};*/
