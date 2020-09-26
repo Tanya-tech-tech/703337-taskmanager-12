@@ -1,4 +1,3 @@
-//export const COLORS = [`black`, `yellow`, `blue`, `green`, `pink`];
 export const Color = {
   BLACK: `black`,
   YELLOW: `yellow`,
@@ -24,7 +23,8 @@ export const UserAction = {
 export const UpdateType = {
   PATCH: `PATCH`,
   MINOR: `MINOR`,
-  MAJOR: `MAJOR`
+  MAJOR: `MAJOR`,
+  INIT: `INIT`
 };
 
 export const FilterType = {
