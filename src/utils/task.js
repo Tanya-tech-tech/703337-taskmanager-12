@@ -87,4 +87,4 @@ export const isDatesEqual = (dateA, dateB) => {
 // в "продуктовом" коде, а для моков самое то.
 // Для "продуктового" кода используйте что-то понадежнее,
 // вроде nanoid - https://github.com/ai/nanoid
-export const generateId = () => Date.now() + parseInt(Math.random() * 10000, 10);
+// export const generateId = () => Date.now() + parseInt(Math.random() * 10000, 10);// теперь сервер генерирует
